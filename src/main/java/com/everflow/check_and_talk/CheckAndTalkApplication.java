@@ -9,5 +9,4 @@ public class CheckAndTalkApplication {
     public static void main(String[] args) {
         SpringApplication.run(CheckAndTalkApplication.class, args);
     }
-
 }
