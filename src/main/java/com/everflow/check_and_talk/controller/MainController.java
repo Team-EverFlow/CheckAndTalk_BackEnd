@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class MainController {
     @GetMapping("/home")
     public static String index(Model model, @AuthenticationPrincipal OAuth2User userInfo) {
-        System.out.println(userInfo.getName());
-        System.out.println(userInfo.getAttributes());
+        // System.out.println(userInfo.getName());
+        // System.out.println(userInfo.getAttributes());
         return "index";
     }
 }
